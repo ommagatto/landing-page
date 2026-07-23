@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #FFFFFF;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,14 +14,19 @@ body {
 
 .hero-section {
     background-color: #1F2937;
-    padding: 16px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px;
 }
 
 header {
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
-    flex-grow: 1;
+    padding-top: 16px;
 }
 
 .header-logo {
@@ -44,9 +49,8 @@ nav {
 
 .hero-text-and-secondary-text-and-image {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin: 82px 0px;
+    padding: 82px 0px;
 }
 
 .hero-text-and-hero-secondary-text {
@@ -54,6 +58,7 @@ nav {
     flex-direction: column;
     margin-right: 48px;
     gap: 16px;
+    flex: auto;
 }
 
 .hero-main-text {
@@ -93,6 +98,8 @@ button {
     font-size: 36px;
     font-weight: 900;
     margin-top: 48px;
+    display: flex;
+    justify-content: center;
 }
 
 .illustrations-with-subtext {
