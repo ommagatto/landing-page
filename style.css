@@ -167,3 +167,18 @@ h4 {
 .button-call-action {
     border: 2px solid #F9FAF8;
 }
+
+footer {
+    background-color: #1F2937;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+}
+
+.copyright-text {
+    color: #F9FAF8;
+}
