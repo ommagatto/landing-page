@@ -8,6 +8,7 @@
 body {
     background-color: #FFFFFF;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -45,7 +46,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 48px 0px;
+    margin: 82px 0px;
 }
 
 .hero-text-and-hero-secondary-text {
@@ -81,4 +82,31 @@ button {
 
 .comic-image {
     display: flex;
+}
+
+.some-random-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 48px;
+}
+
+.illustrations-with-subtext {
+    display: flex;
+}
+
+.peeps-with-subtext {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.peeps-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
