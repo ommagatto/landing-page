@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,7 +19,6 @@ body {
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 32px;
 }
 
 header {
@@ -77,10 +76,9 @@ nav {
 button {
     color: #F9FAF8;
     background-color: #3882F6;
-    font-size: 15px;
     font-weight: 600;
     border: 0px;
-    width: 120px;
+    width: 100px;
     padding: 10px 12px;
     border-radius: 8px;
 }
@@ -90,30 +88,53 @@ button {
 }
 
 .some-random-information {
-    display: flex;
-    flex-direction: column;
+    margin: 64px 0px;
+    font-weight: 900;
 }
 
 .information-header-text {
     font-size: 36px;
     font-weight: 900;
-    margin-top: 48px;
     display: flex;
     justify-content: center;
+    padding-bottom: 32px;
 }
 
 .illustrations-with-subtext {
     display: flex;
+    justify-content: space-between;
 }
 
 .peeps-with-subtext {
     display: flex;
     flex-direction: column;
-    width: 200px;
+}
+
+.peep-subtext {
+    max-width: 200px;
 }
 
 .peeps-images {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 64px 0px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 16px;
+}
+
+.thor-god-of-thunder {
+    font-size: 18px;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
 }
