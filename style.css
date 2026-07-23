@@ -138,3 +138,32 @@ button {
     display: flex;
     justify-content: flex-end;
 }
+
+.call-to-action-section {
+    padding: 64px 0px;
+}
+
+.call-to-action-blue-container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 32px 64px;
+}
+
+h4 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-to-action-and-subtext {
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action-subtext {
+    color: #F9FAF8;
+}
+
+.button-call-action {
+    border: 2px solid #F9FAF8;
+}
